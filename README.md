@@ -8,9 +8,37 @@ Encoding:
 - Takes a directory of files tars them with compression
 - Encrypts the files with your public key
 - (Optional) Reed Soloman or other ECC code added
-- Splits file into chunks which are one page in size
+- (Future) Splits file into chunks which are one page in size
 - Wraps chunk with metadata (eg: order, hashes)
 - Generates PDF with all of the chunks. 
 
 Decoding:
 - Reverses the above
+
+How to get it working:
+======================
+
+```
+brew install elixir
+brew install zbar
+brew install qrencode
+```
+
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `PrivatePaper` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [{:PrivatePaper, "~> 0.1.0"}]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at [https://hexdocs.pm/PrivatePaper](https://hexdocs.pm/PrivatePaper).
+
+
+
+
