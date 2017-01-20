@@ -24,6 +24,12 @@ brew install zbar
 brew install qrencode
 ```
 
+## Not done yet:
+- Take command line parameters
+- Get a best practices key derivation function implemented
+- Support multi-page archives
+- Wrap archive in metadata and implement a HMAC
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed

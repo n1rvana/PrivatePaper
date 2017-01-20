@@ -18,3 +18,10 @@ erl_crash.dump
 
 # Also ignore archive artifacts (built via "mix archive.build").
 *.ez
+
+/test_data/decrypted/*
+/test_data/encrypted/*
+/test_data/qr_decoded/*
+/test_data/qr_encoded/*
+/test_data/unzipped/*
+/test_data/zipped/*

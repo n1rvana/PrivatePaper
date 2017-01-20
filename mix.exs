@@ -7,6 +7,7 @@ defmodule PrivatePaper.Mixfile do
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     escript: [main_module: PrivatePaper.CLI],
      deps: deps()]
   end
 
@@ -28,6 +29,6 @@ defmodule PrivatePaper.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+  [{:porcelain, "~> 2.0"}]
   end
 end
