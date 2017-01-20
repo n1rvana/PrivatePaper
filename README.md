@@ -56,7 +56,7 @@ mix escript.build
 - Get a best practices key derivation function implemented
 - Support multi-page archives
 - Wrap archive in metadata and implement a HMAC
-- 
+
 
 
 
