@@ -17,11 +17,13 @@ Decoding:
 
 How to get it working:
 ======================
-
+(need to be on a mac at this point)
 ```
 brew install elixir
 brew install zbar
 brew install qrencode
+mix escript.build
+./PrivatePaper
 ```
 
 ## Not done yet:
